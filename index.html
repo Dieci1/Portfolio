@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
         
     </head>
 
@@ -17,7 +18,11 @@
         </div>
 
 
-
+        <!--=======Light/Dark theme button=======-->
+        <div class="theme-btn flex-center">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
 
          <!--=======Header=======-->
         <header>
@@ -25,13 +30,15 @@
             <a href="#" class="logo">Pasquale Ioio</a>
             <div class="navigation">
                 <div class="nav-items">
-                    <a href="#home">Home</a>
+                    <div class="nav-close-btn"></div>
+                    <a class="active" href="#home">Home</a>
                     <a href="#about">Chi sono</a>
                     <a href="#skills">Skills</a>
                     <a href="#progetti">Progetti</a>
                     <a href="#contact">Contatti</a>
                 </div>
             </div>
+            <div class="nav-menu-btn"></div>
           </div> 
         </header>
 
@@ -47,7 +54,7 @@
                 <div class="info">
                     <h2>PASQUALE IOIO</h2>
                     <h3> ▸ Full-Stack Developer</h3>
-                    <a href="" class="btn">Download CV <i class="fa fa-arrow-circle-down"></i></a>
+                    <a href="" class="btn" id="downloadButton1">Download CV <i class="fa fa-arrow-circle-down"></i></a>
                 </div>
                 <div class="home-img">
                 <img src="./img/Progetto senza titolo.png" alt="">
@@ -83,7 +90,7 @@
                                 
                                <p>📈 Capacità gestionali e organizzative: Credo fermamente che la gestione efficace dell'organizzazione del tempo e delle attività sia fondamentale per il successo in qualsiasi progetto.</p>
                         </div>
-                        <a href="" class="btn">Download CV <i class="fa fa-arrow-circle-down"></i></a>
+                        <a href="" class="btn" id="downloadButton2">Download CV <i class="fa fa-arrow-circle-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -262,7 +269,12 @@
                                     <a href="https://dieci1.github.io/Travel/" target="_blank">
                                         <img src="./img/travell.png" alt="">
                                     </a>
-                                    <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+                                    <p>Benvenuti nel mio progetto di landing page per viaggi! 
+                                    <p>Ho creato questa piattaforma per offrire un'esperienza coinvolgente e visiva delle varie destinazioni turistiche.</p>
+                                    <p>Utilizzando HTML, CSS e JavaScript, ho realizzato una landing page completamente responsive che si adatta a tutti i dispositivi.</p>
+                                    <p>La parte più entusiasmante del progetto è stata la gestione delle slide e dei video delle destinazioni.</p> 
+                                    <p>implementato un sistema intuitivo che consente agli utenti di sfogliare facilmente le varie opzioni di viaggio.</p>
+                                    <p>Vi invito a cliccare sull'immagine per esplorare il progetto completo e iniziare il vostro piccolo viaggio virtuale! </p>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +294,11 @@
                                     <a href="https://dieci1.github.io/Starbucks/" target="_blank">
                                         <img src="./img/starbucks.png" alt="">
                                     </a>
-                                    <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+                                    <p>Benvenuti sulla mia landing page dedicata a Starbucks! 
+                                    <p>Questo progetto offre un'esperienza interattiva unica, permettendo agli utenti di scegliere il loro gusto preferito di frappè e personalizzare la homepage di conseguenza.</p>
+                                    <p>Utilizzando HTML, CSS e JavaScript, ho creato un piccolo controller che cambia il colore di sfondo e l'immagine principale in base al gusto selezionato dall'utente.</p>
+                                    <p>Ogni gusto ha il proprio colore distintivo e un'immagine associata, rendendo l'esperienza visiva e coinvolgente.</p>
+                                    <p>Vi invito a cliccare sull immagine per visualizzare il progetto completo e a provare l'interattività della pagina, selezionando il vostro frappè preferito e osservando la trasformazione della homepage in base alla vostra scelta!</p>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +318,12 @@
                                     <a href="https://dieci1.github.io/PlayStation/" target="_blank">
                                         <img src="./img/playstation.png" alt="">
                                     </a>
-                                    <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+                                    <p>Benvenuti sulla mia landing page dedicata al mondo PlayStation!</p>
+                                    <p>Qui potrete trovare il joystick perfetto per migliorare la vostra esperienza di gioco.</p>
+                                    <p>Utilizzando HTML, CSS e JavaScript, ho creato un'interfaccia semplice e intuitiva che mette in evidenza il joystick in vendita. </p>
+                                    <p>La pagina, completamente responsive, mostra dettagli chiari sul prodotto, come caratteristiche e prezzo, per aiutarvi nella vostra scelta. </p>
+                                    <p>Con il pulsante 'Buy now', vi invito ad esplorare le specifiche del joystick e a scoprire tutte le sue funzionalità.</p>
+                                    <p>Se siete pronti a migliorare il vostro setup di gioco con il miglior joystick disponibile, non esitate a fare clic sull'immagine per visualizzare il progetto completo.</p>
                                 </div>
                             </div>
                         </div>
@@ -322,7 +343,13 @@
                                     <a href="https://dieci1.github.io/RealPhone/" target="_blank">
                                         <img src="./img/realphone.png" alt="">
                                     </a>
-                                    <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+                                    <p>Benvenuti su RealPhone, la tua destinazione per scoprire le ultime innovazioni nel mondo dei cellulari!</p>
+                                    <p>Attraverso questa landing page interattiva, vi offro un'esclusiva panoramica sul nostro ultimo modello di smartphone.</p>
+                                    <p>Utilizzando un semplice controller, potrete navigare tra le varie caratteristiche del telefono premendo le frecce su e giù. </p>
+                                    <p>LCon una combinazione di HTML, CSS e JavaScript, ho creato un'esperienza coinvolgente che vi permette di esplorare le specifiche tecniche del RealPhone in modo intuitivo.</p>
+                                     <p>Che tu sia interessato alla fotocamera di ultima generazione, alla durata della batteria o alle funzionalità software, 
+                                        troverai tutte le informazioni di cui hai bisogno proprio qui.</p>
+                                    <p>Siete pronti a immergervi nelle potenzialità del RealPhone? Cliccate sulla foto per visualizzare il progetto completo.</p>
                                 </div>
                             </div>
                         </div>
@@ -354,22 +381,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="contact-right">
-                        <p>Richiedi <br><span>informazioni</span></p>
-                        <form action="" class="contact-form">
-                            <div class="first-row">
-                                <input type="text" placeholder="Nome">
-                            </div>
-                            <div class="second-row">
-                                <input type="email" placeholder="Email">
-                                <input type="text" placeholder="Oggetto">
-                            </div>
-                            <div class="third-row">
-                                <textarea name="message" id="" rows="7" placeholder="Messaggio"></textarea>
-                            </div>
-                            <button class="btn" type="submit">Invia Messaggio <i class="fas fa-paper-plane"></i></button>
-                        </form>
-                    </div>
+                   <div class="home-img">
+                    <img src="./img/email.png" alt="">
+                   </div>
                 </div>
             </div>
         </section>
