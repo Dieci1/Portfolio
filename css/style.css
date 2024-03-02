@@ -1086,7 +1086,7 @@ footer .footer-container{
 
      /*=======home section=======*/
      .home-img {
-        top: 280px; /* Regola questa proprietà in base all'altezza della navbar */
+        top: 220px; /* Regola questa proprietà in base all'altezza della navbar */
     }
     
      .home .home-container{
