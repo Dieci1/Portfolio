@@ -1018,7 +1018,7 @@ footer a{
 .contact .content {
     flex-direction: column; 
 }
-.contact .home-img {
+.contact .mail-img {
     max-width: 100%; 
     margin-top: 40px; 
 }
@@ -1034,7 +1034,7 @@ footer a{
     flex: 1; 
 }
 
-.contact .home-img {
+.contact .mail-img {
     flex: 1; 
     max-width: 50%; 
 }
@@ -1086,7 +1086,7 @@ footer .footer-container{
 
      /*=======home section=======*/
      .home-img {
-        top: 220px; /* Regola questa proprietà in base all'altezza della navbar */
+        top: 200px; /* Regola questa proprietà in base all'altezza della navbar */
     }
     
      .home .home-container{
@@ -1110,13 +1110,13 @@ footer .footer-container{
         margin-bottom: 80px;
      }
 
-     .contact .home-img img {
+     .contact .mail-img img {
         width: 150%; 
         height: auto; ; 
         margin-right: auto;
        
     }
-    .contact .home-img {
+    .contact .mail-img {
         display: flex; 
         justify-content: center; 
         align-items: center; 
@@ -1125,7 +1125,7 @@ footer .footer-container{
         z-index: 1; 
     }
      
-    .home-img {
+    .mail-img {
         position: relative;
     }
 
