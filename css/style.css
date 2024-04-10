@@ -549,6 +549,14 @@ header .nav-bar .navigation .nav-items a:focus:before { /* Aggiunto a:hover e a:
     width: 75%;
 }
 
+.bar .angular:before{
+    width: 85%;
+}
+
+.bar .react:before{
+    width: 80%;
+}
+
 .skills-description {
     margin-bottom: 20px; 
 }
