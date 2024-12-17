@@ -557,6 +557,9 @@ header .nav-bar .navigation .nav-items a:focus:before { /* Aggiunto a:hover e a:
     width: 80%;
 }
 
+.bar .oracle:before{
+    width: 90%;
+}
 .skills-description {
     margin-bottom: 20px; 
 }
