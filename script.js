@@ -89,10 +89,10 @@ window.addEventListener("scroll", () => {
 function downloadCurriculum(event) {
     event.preventDefault(); // Evita il comportamento predefinito del browser
 
-    var curriculumPath = "./materiale/PasqualeIoioCV.pdf";
+    var curriculumPath = "./materiale/PasqualeIoioCV.pdf.pdf";
     var downloadLink = document.createElement('a');
     downloadLink.href = curriculumPath;
-    downloadLink.download = 'PasqualeIoioCV.pdf';  
+    downloadLink.download = 'PasqualeIoioCV.pdf.pdf';  
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
