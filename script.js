@@ -89,10 +89,10 @@ window.addEventListener("scroll", () => {
 function downloadCurriculum(event) {
     event.preventDefault(); // Evita il comportamento predefinito del browser
 
-    var curriculumPath = "./materiale/PasqualeIoioCV.pdf.pdf";
+    var curriculumPath = "./materiale/PasqualeIoioCV2.pdf";
     var downloadLink = document.createElement('a');
     downloadLink.href = curriculumPath;
-    downloadLink.download = 'PasqualeIoioCV.pdf.pdf';  
+    downloadLink.download = 'PasqualeIoioCV2.pdf';  
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -136,10 +136,11 @@ ScrollReveal({
     delay: 100
 });
 
+
 //target elements, and specify options to create reveal animation
 ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', {delay: 400, origin: 'left' });
-ScrollReveal().reveal('.home .info h3, .about-info .btn', {delay: 500, origin: 'right' });
-ScrollReveal().reveal('.home .info .btn', {delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.home .info h3, .about-info ', {delay: 500, origin: 'right' });
+ScrollReveal().reveal('.home .info ', { delay: 600, origin: 'bottom' });
 ScrollReveal().reveal('.media-icons i, .contact-left li', {delay: 400, origin: 'left', interval: 200 });
 ScrollReveal().reveal('.home-img, .about-img, .mail-img', {delay: 400, origin: 'bottom' });
 ScrollReveal().reveal('.about .description, .contact-right', {delay: 500, origin: 'right' });
